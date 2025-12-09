@@ -1,0 +1,37 @@
+body {
+  background: rgb(44, 40, 40);
+}
+.winner {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+  align-items: center;
+  padding: 10px;
+  color: rgb(250, 252, 250);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 50px auto;
+  gap: 10px;
+  color: rgb(238, 43, 43);
+  text-align: center;
+  color: white;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px 30px;
+  background-color: rgb(93, 199, 199);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: larger;
+}
+.dice {
+  width: 200px;
+}
